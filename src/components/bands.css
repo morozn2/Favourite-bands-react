@@ -1,0 +1,121 @@
+.genre-bands-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url("./bands-background.jpg");
+    margin-top: 10px;
+}
+
+.genre-name-black-metal {
+    font-size: 36px;
+    font-family: UnifrakturMaguntia;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.genre-name-death-metal {
+    font-size: 36px;
+    font-family: Rubik Wet Paint;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.band-name-black-metal {
+    font-size: 30px;
+    font-family: UnifrakturMaguntia;
+    text-shadow: 1px 2px 2px;
+}
+
+.band-name-death-metal {
+    font-size: 30px;
+    font-family: Rubik Wet Paint;
+}
+
+.bands-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.band {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 352px;
+}
+
+.band-desc-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 10%;
+    width: 90%;
+}
+
+.band-logo-small {
+    width: 250px;
+    margin: 10px;
+}
+
+.band-logo-big {
+    width: 140px;
+    margin: 10px;
+}
+
+.band-gold {
+    border: 5px groove gold;
+}
+
+.band-silver {
+    border: 5px groove silver;
+}
+
+.band-bronze {
+    border: 5px groove rgb(205, 120, 0);
+}
+
+.band-genre {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: rgb(210, 0, 0);
+}
+
+.band-pic {
+    width: 35%;
+}
+
+.left-side {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.right-side {
+    margin-left: auto;
+    margin-right: 10px;
+}

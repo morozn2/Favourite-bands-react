@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 666px;
+    background-color: black;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 30px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-family: Rubik Beastly;
+    color: red;
+}
+
+.hero-pic {
+    width: 40%
+}
