@@ -17,6 +17,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: Spectral SC;
+  background-image: url("./bands-background.jpg");
 }
 
 

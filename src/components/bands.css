@@ -7,33 +7,6 @@
     margin-top: 10px;
 }
 
-.genre-name-black-metal {
-    font-size: 36px;
-    font-family: UnifrakturMaguntia;
-    background-color: black;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-.genre-name-death-metal {
-    font-size: 36px;
-    font-family: Rubik Wet Paint;
-    background-color: black;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
 .band-name-black-metal {
     font-size: 30px;
     font-family: UnifrakturMaguntia;
@@ -54,19 +27,6 @@
     gap: 50px;
 }
 
-.band {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10%;
-    width: 65%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 352px;
-}
-
 .band-desc-box {
     display: flex;
     flex-direction: column;
@@ -77,26 +37,64 @@
     width: 90%;
 }
 
-.band-logo-small {
+.logo-small {
     width: 250px;
     margin: 10px;
 }
 
-.band-logo-big {
+.logo-big {
     width: 140px;
     margin: 10px;
 }
 
 .band-gold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 352px;
     border: 5px groove gold;
+    margin-right: auto;
+    margin-left: 10px;
+    margin: 20px;
 }
 
 .band-silver {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 352px;
     border: 5px groove silver;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .band-bronze {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 352px;
     border: 5px groove rgb(205, 120, 0);
+    margin-right: auto;
+    margin-left: 10px;
+    margin: 20px;
 }
 
 .band-genre {
@@ -108,14 +106,4 @@
 
 .band-pic {
     width: 35%;
-}
-
-.left-side {
-    margin-right: auto;
-    margin-left: 10px;
-}
-
-.right-side {
-    margin-left: auto;
-    margin-right: 10px;
 }

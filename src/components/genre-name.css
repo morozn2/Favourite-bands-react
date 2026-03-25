@@ -1,0 +1,55 @@
+.genre-name-box {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.emoji-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.emoji-left {
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.emoji-right {
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.genre-name-black-metal {
+    font-size: 36px;
+    font-family: UnifrakturMaguntia;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.genre-name-death-metal {
+    font-size: 36px;
+    font-family: Rubik Wet Paint;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
